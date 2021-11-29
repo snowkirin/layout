@@ -1,0 +1,24 @@
+.wrapper {
+  background-color: #faa;
+  margin: 50px;
+}
+
+.float_left {
+  background-color: #afa;
+}
+
+.float_right {
+  background-color: #aaf;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+}
+.clearfix::after {
+  clear: both;
+}

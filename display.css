@@ -1,0 +1,25 @@
+.block {
+  position: relative;
+  padding: 40px 20px;
+  border: 5px solid #6c6;
+}
+.block .tip {
+  position: absolute;
+  background-color: #6c6;
+}
+.block .tip1 {
+  left: 0;
+  top: 0;
+}
+.block .tip2 {
+  right: 0;
+  bottom: 0;
+}
+
+.inline {
+  background-color: #faa;
+}
+
+.none {
+  display: none;
+}

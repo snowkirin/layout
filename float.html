@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./float.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label>
+      <input type="checkbox" onClick="toggleFloat(this)" />
+      float 토글
+    </label>
+    <label>
+      <input type="checkbox" onClick="toggleClearfix(this)" />
+      ClearFix 토글
+    </label>
+
+    <!-- 주석을 한번 풀어보세요 -->
+    <!-- <div class="wrapper" style="display: flow-root"> -->
+    <div class="wrapper">
+      <div class="float_left">Float Left</div>
+      <div class="float_right">Float Right</div>
+    </div>
+    <script src="./float.js"></script>
+  </body>
+</html>
